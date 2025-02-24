@@ -7,7 +7,7 @@ use std::{
 
 use clap::Parser;
 use serde::{Deserialize, Serialize};
-use taskly::{
+use taskr::{
     cli::{Cli, Commands, TaskStatus},
     utils::{self, DirError, Dirs},
 };
